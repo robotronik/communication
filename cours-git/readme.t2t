@@ -1,0 +1,79 @@
+Hovercraft-t2t
+
+
+%!target: rst
+
+
+
+**The merge of convenience and cool!**
+
+Hovercraft-t2t is a tool to make impress.js_ presentations from
+txt2tags. For a quick explanation, see the demo_.
+
+
+== Features ==
+
+
+- Write your presentations in a text markup language. No slow, limiting GUI, no annoying HTML!
+
+- Pan, rotate and zoom in 3D, with automatic repositioning of slides!
+
+- A presenter console with notes and slide previews!
+
+- The slide show generated is in HTML, so you only need a web browser to show it.
+
+- Easy sharing, as it can be put up on a website for anyone to see!
+
+
+% Full documentation is available at readthedocs.org_, and also in the documentation subdirectory.
+
+
+== Limitations ==
+
+- presentations can only use moving slides. No "dissolve" effect yet.
+- can't display bullets in lists one by one, like in traditional presentations.
+- unlike reveal.js, doesn't seem to display well on smartphones or tablets.
+
+
+== Installation ==
+
+
+Hovercraft_ requires Python 3.2 or later, and can be installed like any Python package. Txt2tags_ requires Python 2.6
+
+The easiest way is to install pip_, and then run:
+
+``` pip install hovercraft
+    
+Hovercraft is untested on Windows, but there is no reason it shouldn't work, at least in theory.
+
+
+
+
+== Contributors ==
+
+
+The original Hovercraft_! was written by Lennart Regebro <regebro@mail.com>, and is licensed as CC-0, except for the following:
+
+- ``reST.xsl`` is (c) Michael Alyn Miller <malyn@strangeGizmo.com> and
+  published under a BSD-style license included in reST.xsl itself.
+
+- ``impress.js`` is (c) Bartek Szopka (@bartaz) released under MIT and GPL
+  licenses. See the impress.js_ page for more information.
+
+Other contributors:
+
+- Carl Meyer (carljm)
+
+- Chris Withers (cjw296)
+
+- Eric Forgeot : hovercraft + txt2tags
+
+
+.. _impress.js: http://github.com/bartaz/impress.js
+.. _demo: http://farvardin.github.io/hovercraft-t2t/sample
+.. _readthedocs.org: https://hovercraft.readthedocs.org/
+.. _pip: http://www.pip-installer.org/en/latest/
+.. _hovercraft: http://github.com/regebro/hovercraft
+.. _txt2tags: http://www.txt2tags.org
+
+

@@ -1,0 +1,20 @@
+Slides utilisées pour la présentation de git.
+
+On peut générer la présentation à l'aide de la commande suivante :
+
+    hovercraft git-presentation.rst presentation
+
+Et ensuite, on peut simplement lire le fichier
+
+    presentation/index.html
+
+avec un navigateur internet (firefox, …)
+
+
+
+-----
+
+hovercraft est un convertisseur restructured-text vers impress.js écrit en python
+Il permet d'obtenir des présentations en css3 + javascript + html5
+
+https://github.com/regebro/hovercraft

@@ -1,0 +1,12 @@
+*~
+.~lock*
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.dvi
+*.log
+*.out
+*.synctex.gz
+*.toc
